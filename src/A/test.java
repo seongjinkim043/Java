@@ -30,5 +30,6 @@ public class test {
         }
 
         insert.close(); // Scanner 닫기
+        // 코드 설명 추가
     }
 }
