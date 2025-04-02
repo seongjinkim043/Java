@@ -1,8 +1,12 @@
 package starbucks;
 
-public class Starbucks {
+import gov.Shop;
+
+public abstract class Starbucks extends Shop {
 
 	protected final static String BRAND_NAME = "STARBUCKS";
+	
+	protected abstract void Mugwort();
 	
 	protected void brewing() {
 		System.out.println("에티오피아산 커피를 사용해서 추출중...");
@@ -18,4 +22,5 @@ public class Starbucks {
 	protected void specialPromotion() {
         System.out.println(BRAND_NAME + " 본사 이벤트: 신규 회원 가입 시 무료 음료 쿠폰 증정!");
     }
+	
 }

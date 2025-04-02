@@ -2,7 +2,7 @@ package starbucks.branch;
 
 import starbucks.Starbucks;
 
-public class StarbucksHongdae extends Starbucks {
+public abstract class StarbucksHongdae extends Starbucks {
 	
 	public void discount() {
 		super.discount();
@@ -16,5 +16,5 @@ public class StarbucksHongdae extends Starbucks {
 	public void specialPromotion() {
 		System.out.println("홍대 지점 오픈 기념 아메리카노 1+1 행사 진행중");
 	}
-
+	
 }
